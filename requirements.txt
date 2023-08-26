@@ -1,2 +1,14 @@
 torch==2.0.1
 transformers==4.32.0
+accelerate
+appdirs
+loralib
+bitsandbytes
+black
+black[jupyter]
+datasets
+fire
+git+https://github.com/huggingface/peft.git
+sentencepiece
+gradio
+scipy
