@@ -12,3 +12,4 @@ git+https://github.com/huggingface/peft.git
 sentencepiece
 gradio
 scipy
+MarkupSafe==1.1.1
