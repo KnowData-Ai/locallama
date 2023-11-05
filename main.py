@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 
-HF_TOKEN = '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'
+HF_TOKEN = '''Access Llama 2 on Hugging Face
+This is a form to enable access to Llama 2 on Hugging Face after you have been granted access from Meta. Please visit the Meta website and accept our license terms and acceptable use policy before submitting this form. Requests will be processed in 1-2 days.
+
+Your Hugging Face account email address MUST match the email you provide on the Meta website, or your request will not be approved.
+Meta URL: https://ai.meta.com/resources/models-and-libraries/llama-downloads
+'''
 
 # Load model directly
 import transformers
@@ -178,7 +183,7 @@ def main(
             gr.components.Checkbox(label="Stream output"),
         ],
         outputs=[
-            gr.inputs.Textbox(
+            gr.Textbox(
                 lines=5,
                 label="Output",
             )
